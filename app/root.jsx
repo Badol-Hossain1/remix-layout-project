@@ -17,9 +17,10 @@ export default function App() {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <Meta />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <Links />
       </head>
-      <body>
+      <body className="bg-[#75FF33]">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
